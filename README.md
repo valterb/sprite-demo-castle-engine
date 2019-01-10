@@ -21,7 +21,7 @@ Code is commented.
 
 Any changes that improve the code would be appreciated.
 Still to do would be:
-1) turn the sprite in the required direction before starting the animation (I have attached individual idle images)
+1) Turn the sprite in the required direction before starting the animation (I have attached individual idle images)
 2) Insert an action to pick up an object
 3) Define a walking area
 4) and much more ...
