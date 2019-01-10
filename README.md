@@ -15,7 +15,7 @@ The second one is a demo with a road background where you can move the sprite th
 One click to walk, double click to run.
 Run animation is divided into three actions, short initial walk, run, short final walk but it is not perfect.
 
-A personal observation: you can try to improve sprite animations as much as possible but in general the result will never be satisfactory (unless you use small sprites with a high frame number or you want to create a retro game). It would be better to prepare and export animations from Spine, Dragon Bones or such or eventually Player 3d on 2d background.
+A personal observation: you can try to improve sprite animations as much as possible but in general the result will never be satisfactory (unless you use small sprites with a high frame number or you want to create a retro game). It would be better to prepare and export animations from Spine, Dragon Bones or such or eventually 3d character on 2d background.
 
 The code is commented on in the most significant parts.
 
