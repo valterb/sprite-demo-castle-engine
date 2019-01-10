@@ -3,6 +3,7 @@ First steps to work with sprites through Castle Game Engine. Built with Lazarus.
 
 I worked on this code for personal purposes and I share it for those approaching CGE.
 Of course it's all to be improved but it can give you a basic idea.
+Sprite walks/run in eight directions with eight idle.
 
 Demo is divided into two parts:
 <ul>
@@ -10,7 +11,6 @@ Demo is divided into two parts:
 <li>Road demo</li>
 </ul> 
 
-Sprite walks/run in eight directions with eight idle.
 The first shows with extreme precision the direction of the sprite in degrees. Using mouse click coordinates and Player position I apply the arctangent formula and I convert the value obtained in degrees. This way I get the requested direction.
 The second one is a demo with a road background where you can move the sprite that is sized according to the distance from the observation point.
 One click to walk, double click to run.
