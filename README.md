@@ -17,7 +17,7 @@ Run animation is divided into three actions, short initial walk, run, short fina
 
 A personal observation: you can try to improve sprite animations as much as possible but in general the result will never be satisfactory (unless you use small sprites with a high frame number or you want to create a retro game). It would be better to prepare and export animations from Spine, Dragon Bones or such or eventually Player 3d on 2d background.
 
-Code is commented.
+The code is commented on in the most significant parts.
 
 Any changes that improve the code would be appreciated.
 Still to do would be:
