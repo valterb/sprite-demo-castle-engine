@@ -167,7 +167,7 @@ end;
 procedure TMainForm.BtnGoniometerClick(Sender: TObject);
 begin
   FreeAndNil(Bg);
-  Bg := TGLImage.Create('Goniometer.jpg');
+  Bg := TGLImage.Create(ApplicationData('Goniometer.jpg'));
   Goniometer := True;
   Player.CurrentAnimationID := C_AnimIdleDown;
   player.CurrentAnimation.Position := Vector2(CastleControl1.Width div 2, CastleControl1.Height div 2);
@@ -181,7 +181,7 @@ end;
 procedure TMainForm.BtnRoadClick(Sender: TObject);
 begin
   FreeAndNil(Bg);
-  Bg := TGLImage.Create('Road.jpg');
+  Bg := TGLImage.Create(ApplicationData('Road.jpg'));
   Goniometer := False;
   Player.CurrentAnimationID := C_AnimIdleDown;
   player.CurrentAnimation.Position := Vector2(470, 30);
