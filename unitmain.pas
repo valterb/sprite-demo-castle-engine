@@ -666,7 +666,7 @@ begin
   IdleLeft.FramesPerSecond := 20;
   AnimIdleLeft := IdleLeft.AddAnimation([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]);
 
-  IdleRight := TSprite.CreateFrameSize(ApplicationData('sprite/idleRight.png'), 20, 5, 86, 327, True, True, False);
+  IdleRight := TSprite.CreateFrameSize(ApplicationData('sprite/idleright.png'), 20, 5, 86, 327, True, True, False);
   IdleRight.FramesPerSecond := 20;
   AnimIdleRight := IdleRight.AddAnimation([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]);
 
