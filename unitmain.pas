@@ -167,7 +167,7 @@ end;
 procedure TMainForm.BtnGoniometerClick(Sender: TObject);
 begin
   FreeAndNil(Bg);
-  Bg := TGLImage.Create('Goniometer.jpg');
+  Bg := TGLImage.Create(ApplicationData('Goniometer.jpg'));
   Goniometer := True;
   Player.CurrentAnimationID := C_AnimIdleDown;
   player.CurrentAnimation.Position := Vector2(CastleControl1.Width div 2, CastleControl1.Height div 2);
@@ -181,7 +181,7 @@ end;
 procedure TMainForm.BtnRoadClick(Sender: TObject);
 begin
   FreeAndNil(Bg);
-  Bg := TGLImage.Create('Road.jpg');
+  Bg := TGLImage.Create(ApplicationData('Road.jpg'));
   Goniometer := False;
   Player.CurrentAnimationID := C_AnimIdleDown;
   player.CurrentAnimation.Position := Vector2(470, 30);
@@ -666,7 +666,7 @@ begin
   IdleLeft.FramesPerSecond := 20;
   AnimIdleLeft := IdleLeft.AddAnimation([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]);
 
-  IdleRight := TSprite.CreateFrameSize(ApplicationData('sprite/idleRight.png'), 20, 5, 86, 327, True, True, False);
+  IdleRight := TSprite.CreateFrameSize(ApplicationData('sprite/idleright.png'), 20, 5, 86, 327, True, True, False);
   IdleRight.FramesPerSecond := 20;
   AnimIdleRight := IdleRight.AddAnimation([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]);
 
